@@ -1,0 +1,22 @@
+""" Classe personnage qui donne une vie de 3 par défaut au personnage créé"""
+
+
+class Personnage:
+
+    # constructeur
+    def __init__(self, nom):
+        self.nom = nom
+        self.vie = 3
+
+    # augmenter la vie +1 par attaque
+    def augmenter_vie(self, vie_gagne=1):
+        self.vie = vie + vie_gagne
+
+
+    # diminuer la vie -1 par attaque
+    def diminuer_vie(# TO DO):
+        self.vie = max(0, # TO DO) # on ne veut pas descendre en dessous de 0 vie d’où le max 0
+
+    # attaquer un autre personnage
+    def attaquer(self, un_personnage):
+        # TO DO
