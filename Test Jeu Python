@@ -1,0 +1,22 @@
+""" Programme principal comportant le menu"""
+from Perso import * # importer la classe Personnage pour utiliser ses méthodes et attributs
+
+# liste des personnages
+lesPersonnages # TO DO créer une liste lesPersonnages
+
+# Menu à choix avec fonction quitter
+while choix.upper()!="Q":
+    print("Tapez 1 pour crée un  Perso + vie \n  2 pour Visualiser et configurer l'attaque \n Q/q pour quittez le jeu")
+    choix=input()
+# TO DO voir les exemples déjà faits
+    # Récupérer le nom du nouveau personnage et créer nouveauPersonnage (par exemple)
+    if choix == "1":
+       # TO DO créer le nouveau personnage et l’ajouter à la liste
+    elif choix == "2":
+        print(Perso)
+        for i in enumerate(Perso)
+            print(# TO DO afficher le nom du personnage et son nombre de vies)
+        # choix d'un attaquant et d'un attaqué en utilisant leur numéro (plus rapide)
+           # TO DO
+        # gestion de l'attaque
+           # TO DO
